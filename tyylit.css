@@ -1,0 +1,197 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Tangerine&display=swap');
+.tangerine-regular {
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+.barlow-medium {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+
+  .column {
+    float: left;
+    width: 33%;
+    padding-right: 1px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.header h1 {
+   background-image:url(Hieronta3.jpg);
+    background-position: center;
+    background-size: cover;
+    font-size: 130px;
+    margin: 0;
+    padding: 1;
+    font-family: 'tangerine', sans-serif;
+    color:#E8DBD0;
+    text-shadow:4px 3px rgb(7, 31, 56);
+    max-width: 100%;
+  }
+
+.header h2{
+  text-align: center;
+  margin:0;
+  padding-top: 10px;
+  font-family: 'Barlow', sans-serif;
+  font-size: 30px;
+}
+
+
+.header h3{
+  text-align: center;
+
+  font-family: 'Barlow', sans-serif;
+  font-size: 20px;
+}
+
+.tab {
+  float: right;
+  padding-right: 30%;
+  font-size: 20px;
+  font-family: 'barlow', sans-serif;
+}
+
+.list {
+  font-family: 'barlow', sans-serif;
+  font-size: 20px;
+  padding-left: 16%;
+  padding-bottom: 20px;
+}
+
+.content{
+  text-align: center;
+  margin: 10px;
+  padding:10px;
+  font-family: 'Barlow', sans-serif;
+  font-size: 30px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+  
+.navbar {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    font-size: 25px;
+}
+  
+.navbar ul {
+    list-style-type: none;
+    background-color: rgb(232, 219, 208);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+  
+.navbar a {
+    color: rgb(42, 15, 15);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+}
+  
+.navbar a:hover {
+    background-color: #D0C5BB;
+}
+.navbar a.active {
+    background-color: #D0C5BB;
+}
+  
+footer {
+  font-family: 'barlow', sans-serif;
+    background-color: #777;
+    padding: 5px;
+    text-align: left;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 120px; 
+    box-sizing: border-box;     
+    left: 0;
+    font-size: 14px;
+}
+
+.footer1 {
+  font-size: 16px;
+}
+
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+
+.content-wrap {
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      font-size: 20px;
+    }
+  
+    .navbar ul {
+      flex-direction: column; 
+    }
+  
+    .navbar a {
+      padding: 10px;
+      width: 100%;
+      
+    }
+  }
+
+
+
+
+
+
+.body  {
+    text-align: center;
+    margin:10px;
+    padding:10px;
+    font-family: 'Barlow', sans-serif;
+    
+}
+
+.content {
+    width: 90%;
+    margin: auto;
+    font-size: 18px
+}
+
+
+
